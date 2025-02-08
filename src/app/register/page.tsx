@@ -5,7 +5,7 @@ import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import Link from '@mui/material/Link';
 import { LogButtons } from '@/components/LogButtons';
-import { registerUser } from '../lib/auth/auth';
+import { registerUser } from '../lib/auth';
 
 export default function Page() {
   const [isLoading, setIsLoading] = useState(false);
