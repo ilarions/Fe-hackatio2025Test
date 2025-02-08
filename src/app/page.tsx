@@ -1,12 +1,14 @@
-import { QuizCard } from "./components/quizCard";
-import { List, ListItem } from "@mui/material";
+import { QuizCard, IQuiz } from "./components/quizCard";
+import { Stack } from "@mui/material";
+import { getQuizes } from "./lib/quiz";
 
-export default function Home() {
+export default async function Home() {
+  const res = await getQuizes()
+  console.log("RES: ", res) 
+  const {data} = res 
   return (
-    <List sx={{ margin: "110px auto", display: "grid", gridTemplateColumns: "repeat(3, 1fr)", width: "1090px" }}>
-      <ListItem><QuizCard /></ListItem>
-      <ListItem><QuizCard /></ListItem>
-      <ListItem><QuizCard /></ListItem>
-    </List>
+    <Stack sx={{ margin: "110px auto", display: "grid", gridTemplateColumns: "repeat(3, 1fr)", width: "1090px" }}>
+        {data.map((el: IQuiz) => <QuizCard img={el.img} description={el.description} title={el.title} rating={el.rating} key={el.id}/>)}
+    </Stack>
   );
 }
