@@ -28,7 +28,7 @@ export async function registerUser(name:string, email: string, password: string)
 
 export async function logWithGoogle() {
     try {
-        const response = await apiClient.get("/auth/google/login");
+        const response = await apiClient.get("/auth/google/callback");
         console.log(response);
 
         return response.data;

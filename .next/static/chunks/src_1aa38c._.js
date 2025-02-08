@@ -90,7 +90,7 @@ async function registerUser(name, email, password) {
 }
 async function logWithGoogle() {
     try {
-        const response = await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$lib$2f$client$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].get("/auth/google/login");
+        const response = await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$lib$2f$client$2f$index$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].get("/auth/google/callback");
         console.log(response);
         return response.data;
     } catch (error) {
