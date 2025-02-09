@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { LogButtons } from '../LogButtons'
 import { Button, FormControl, IconButton, InputAdornment, InputLabel, Link, OutlinedInput, TextField } from '@mui/material'
 import { loginUser, registerUser } from '@/app/lib/auth';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 import { useForm } from 'react-hook-form';
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';

@@ -4,15 +4,15 @@ import React, { ReactNode, useState } from 'react'
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import Link from '@mui/material/Link';
-import { LogButtons } from '@/components/LogButtons';
+import { LogButtons } from '@/app/components/LogButtons';
 import { loginUser } from '../lib/auth';
 // import { useLogin } from './loginSchema';
 import { useForm } from 'react-hook-form';
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import LocalPostOfficeOutlinedIcon from "@mui/icons-material/LocalPostOfficeOutlined";
 import { useRouter } from 'next/navigation';
-import { PassButton } from '@/components/PassButton';
-import { PassForm } from '@/components/PassForm';
+import { PassButton } from '@/app/components/PassButton';
+import { PassForm } from '@/app/components/PassForm';
 
 interface IProps {
   placeholder: string;
