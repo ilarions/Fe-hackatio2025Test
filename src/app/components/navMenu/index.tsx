@@ -1,7 +1,6 @@
-import { Menu, MenuItem, ListItemIcon, Divider } from "@mui/material"
+import { Menu, MenuItem, ListItemIcon } from "@mui/material"
 import Logout from '@mui/icons-material/Logout';
 import Avatar from '@mui/material/Avatar';
-import PersonAdd from '@mui/icons-material/PersonAdd';
 import * as React from 'react';
 
 interface INav {
@@ -13,8 +12,6 @@ interface INav {
 export const NavMenu:React.FC<INav> = ({closeClick, state, openCheck}) => {
     const list = [
         { title: "Profile", icon: <Avatar /> },
-        { title: "My account", icon: <Avatar /> },
-        { title: "Add another account", icon: <PersonAdd fontSize="small" /> },
         { title: "Logout", icon: <Logout fontSize="small" /> }
     ]
     return (

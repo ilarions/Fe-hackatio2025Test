@@ -13,10 +13,9 @@ export const MenuLayout = ({ children }: Readonly<{ children: React.ReactNode }>
     setAnchorEl(event.currentTarget);
     console.log("CLICK")
   };
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
+  const handleClose = () => {setAnchorEl(null)};
   const navList = ["Quizes", "My quizes", "Favoutites"]
+  
   return (
     <>
       <AppBar position="fixed" sx={{ bgcolor: "#362989", display: "flex", justifyContent: "space-between", alignItems: "start", flexDirection: "row", padding: "0 30px", width: "100%" }}>
