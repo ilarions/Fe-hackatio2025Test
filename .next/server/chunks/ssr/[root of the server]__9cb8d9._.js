@@ -187,7 +187,11 @@ async function registerUser(name, email, password) {
 }
 async function logWithGoogle() {
     try {
+<<<<<<< HEAD
         const response = await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$lib$2f$client$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].get("/auth/google/callback");
+=======
+        const response = await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$lib$2f$client$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].get("/auth/google/login");
+>>>>>>> 76c96d33e97d913b9f5f90a3603b1cc82b2b79a5
         console.log(response);
         return response.data;
     } catch (error) {
@@ -298,6 +302,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$ico
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$VisibilityOff$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/@mui/icons-material/esm/VisibilityOff.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Link$2f$Link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Link$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Link/Link.js [app-ssr] (ecmascript) <export default as Link>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__ = __turbopack_import__("[project]/node_modules/@mui/material/Button/Button.js [app-ssr] (ecmascript) <export default as Button>");
+<<<<<<< HEAD
+=======
+"use client";
+>>>>>>> 76c96d33e97d913b9f5f90a3603b1cc82b2b79a5
 ;
 ;
 ;
@@ -358,20 +366,31 @@ const PassForm = ()=>{
                         children: "Log in to your Account"
                     }, void 0, false, {
                         fileName: "[project]/src/components/PassForm/index.tsx",
+<<<<<<< HEAD
                         lineNumber: 59,
                         columnNumber: 17
+=======
+                        lineNumber: 60,
+                        columnNumber: 9
+>>>>>>> 76c96d33e97d913b9f5f90a3603b1cc82b2b79a5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-gray-500",
                         children: "Welcome back! Choose login method:"
                     }, void 0, false, {
                         fileName: "[project]/src/components/PassForm/index.tsx",
+<<<<<<< HEAD
                         lineNumber: 60,
                         columnNumber: 17
+=======
+                        lineNumber: 61,
+                        columnNumber: 9
+>>>>>>> 76c96d33e97d913b9f5f90a3603b1cc82b2b79a5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/PassForm/index.tsx",
+<<<<<<< HEAD
                 lineNumber: 58,
                 columnNumber: 13
             }, this),
@@ -379,14 +398,28 @@ const PassForm = ()=>{
                 fileName: "[project]/src/components/PassForm/index.tsx",
                 lineNumber: 62,
                 columnNumber: 13
+=======
+                lineNumber: 59,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$LogButtons$2f$index$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["LogButtons"], {}, void 0, false, {
+                fileName: "[project]/src/components/PassForm/index.tsx",
+                lineNumber: 63,
+                columnNumber: 7
+>>>>>>> 76c96d33e97d913b9f5f90a3603b1cc82b2b79a5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "text-gray-500",
                 children: "-------------------- or continue with email --------------------"
             }, void 0, false, {
                 fileName: "[project]/src/components/PassForm/index.tsx",
+<<<<<<< HEAD
                 lineNumber: 63,
                 columnNumber: 13
+=======
+                lineNumber: 64,
+                columnNumber: 7
+>>>>>>> 76c96d33e97d913b9f5f90a3603b1cc82b2b79a5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$TextField$2f$TextField$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
                 ...register("email"),
@@ -399,8 +432,13 @@ const PassForm = ()=>{
                 label: "Email"
             }, void 0, false, {
                 fileName: "[project]/src/components/PassForm/index.tsx",
+<<<<<<< HEAD
                 lineNumber: 64,
                 columnNumber: 13
+=======
+                lineNumber: 65,
+                columnNumber: 7
+>>>>>>> 76c96d33e97d913b9f5f90a3603b1cc82b2b79a5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$FormControl$2f$FormControl$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__FormControl$3e$__["FormControl"], {
                 sx: {
@@ -415,8 +453,13 @@ const PassForm = ()=>{
                         children: "Password"
                     }, void 0, false, {
                         fileName: "[project]/src/components/PassForm/index.tsx",
+<<<<<<< HEAD
                         lineNumber: 72,
                         columnNumber: 17
+=======
+                        lineNumber: 73,
+                        columnNumber: 9
+>>>>>>> 76c96d33e97d913b9f5f90a3603b1cc82b2b79a5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$OutlinedInput$2f$OutlinedInput$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__OutlinedInput$3e$__["OutlinedInput"], {
                         ...register("password"),
@@ -432,6 +475,7 @@ const PassForm = ()=>{
                                 edge: "end",
                                 children: showPassword ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$VisibilityOff$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                     fileName: "[project]/src/components/PassForm/index.tsx",
+<<<<<<< HEAD
                                     lineNumber: 88,
                                     columnNumber: 49
                                 }, void 0) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Visibility$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
@@ -448,18 +492,46 @@ const PassForm = ()=>{
                             fileName: "[project]/src/components/PassForm/index.tsx",
                             lineNumber: 78,
                             columnNumber: 25
+=======
+                                    lineNumber: 89,
+                                    columnNumber: 33
+                                }, void 0) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Visibility$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                    fileName: "[project]/src/components/PassForm/index.tsx",
+                                    lineNumber: 89,
+                                    columnNumber: 53
+                                }, void 0)
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/PassForm/index.tsx",
+                                lineNumber: 80,
+                                columnNumber: 15
+                            }, void 0)
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/PassForm/index.tsx",
+                            lineNumber: 79,
+                            columnNumber: 13
+>>>>>>> 76c96d33e97d913b9f5f90a3603b1cc82b2b79a5
                         }, void 0),
                         label: "Password"
                     }, void 0, false, {
                         fileName: "[project]/src/components/PassForm/index.tsx",
+<<<<<<< HEAD
                         lineNumber: 73,
                         columnNumber: 17
+=======
+                        lineNumber: 74,
+                        columnNumber: 9
+>>>>>>> 76c96d33e97d913b9f5f90a3603b1cc82b2b79a5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/PassForm/index.tsx",
+<<<<<<< HEAD
                 lineNumber: 71,
                 columnNumber: 13
+=======
+                lineNumber: 72,
+                columnNumber: 7
+>>>>>>> 76c96d33e97d913b9f5f90a3603b1cc82b2b79a5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Link$2f$Link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Link$3e$__["Link"], {
                 underline: "none",
@@ -468,8 +540,13 @@ const PassForm = ()=>{
                 children: "Forgot Password?"
             }, void 0, false, {
                 fileName: "[project]/src/components/PassForm/index.tsx",
+<<<<<<< HEAD
                 lineNumber: 95,
                 columnNumber: 13
+=======
+                lineNumber: 96,
+                columnNumber: 7
+>>>>>>> 76c96d33e97d913b9f5f90a3603b1cc82b2b79a5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Button$2f$Button$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
                 type: "submit",
@@ -484,14 +561,24 @@ const PassForm = ()=>{
                 children: isLoading ? "Entering..." : "Log in"
             }, void 0, false, {
                 fileName: "[project]/src/components/PassForm/index.tsx",
+<<<<<<< HEAD
                 lineNumber: 97,
                 columnNumber: 13
+=======
+                lineNumber: 98,
+                columnNumber: 7
+>>>>>>> 76c96d33e97d913b9f5f90a3603b1cc82b2b79a5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/PassForm/index.tsx",
+<<<<<<< HEAD
         lineNumber: 57,
         columnNumber: 9
+=======
+        lineNumber: 58,
+        columnNumber: 5
+>>>>>>> 76c96d33e97d913b9f5f90a3603b1cc82b2b79a5
     }, this);
 };
 }}),

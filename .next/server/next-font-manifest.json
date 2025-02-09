@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "app": {
     "[project]/src/app/register/page": [
       "static/media/gyByhwUxId8gMEwcGFWNOITd-s.p.da1ebef7.woff2",
@@ -14,6 +15,10 @@
     ]
   },
   "appUsingSizeAdjust": true,
+=======
+  "app": {},
+  "appUsingSizeAdjust": false,
+>>>>>>> 76c96d33e97d913b9f5f90a3603b1cc82b2b79a5
   "pages": {},
   "pagesUsingSizeAdjust": false
 }
