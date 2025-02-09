@@ -1,4 +1,4 @@
-
+import { cookies } from 'next/headers'
 import { Card, CardMedia, Box, Typography } from '@mui/material';
 import FlagIcon from '@mui/icons-material/Flag';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
@@ -6,16 +6,19 @@ import StarIcon from '@mui/icons-material/Star';
 import axios from "axios";
 
 export default async function  Page  (){
+const cookieStore = await cookies();
+const token = cookieStore.get('token');
+console.log(token)
+const response = await axios.get('http://localhost:9000/user/get', {
+  headers: {
+    'Cookie': `token=${token.value}`, 
+    'Content-Type': 'application/json'
+  },
+  withCredentials: true 
+});
 
-   axios.get('http://localhost:9000/user/get',
-        { withCredentials: true }
-    ).then(response=>{
-        console.log(response.data);})
-
-
-
-
-
+const data = response.data;
+console.log(data);
     return (
         <div className="w-screen h-screen bg-[#C8BAFB] flex  self-center justify-center">
             <Card className=" w-[90%] h-[80%] flex flex-col self-center p-6" sx={{ borderRadius: '40px', backgroundColor: '#EFEFFB' }}>
