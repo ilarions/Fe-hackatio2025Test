@@ -6,16 +6,21 @@ import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import Link from '@mui/material/Link';
 import { LogButtons } from '@/app/components/LogButtons';
 import { registerUser } from '../lib/auth';
+import { useRouter } from 'next/navigation';
 
 export default function Page() {
   const [isLoading, setIsLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
-  const handleRegister = async () => {
+  const router = useRouter()
+
+  const handleRegister = async (data: any) => {
     setIsLoading(true);
     try {
-      await registerUser('name', 'email', 'password');
+      await registerUser(data.name, data.email, data.password);
+
+      router.push('/auth/sendemail');
     } catch (error) {
-      console.error('Ошибка входа:', error);
+      console.error('Ошибка регистрации:', error);
     } finally {
       setIsLoading(false);
     }
@@ -74,8 +79,9 @@ export default function Page() {
         </FormControl>
         <Link underline="none" href={'/login'} className='flex justify-center items-center'>Already have account?</Link>
 
-        <Button onClick={() => handleRegister()}
-          href='/login'
+        <Button
+          // onClick={() => handleRegister(data)}
+          href='#'
           sx={{ width: '410px', borderRadius: '5px', height: '50px' }}
           className='flex font-bold bg-blue-600'
           variant="contained"

@@ -1,9 +1,7 @@
 {
-<<<<<<< HEAD
-  "/register/page": "app/register/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/creator/page": "app/creator/page.js",
   "/login/page": "app/login/page.js",
-=======
->>>>>>> 76c96d33e97d913b9f5f90a3603b1cc82b2b79a5
-  "/page": "app/page.js"
+  "/register/page": "app/register/page.js"
 }
