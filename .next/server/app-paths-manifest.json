@@ -1,6 +1,0 @@
-{
-  "/gameblock/[id]/page": "app/gameblock/[id]/page.js",
-  "/gameblock/lobby/[room_id]/page": "app/gameblock/lobby/[room_id]/page.js",
-  "/login/page": "app/login/page.js",
-  "/page": "app/page.js"
-}
