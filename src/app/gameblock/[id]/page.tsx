@@ -17,9 +17,9 @@ export default function Page() {
           withCredentials: true,
         },
       )
-      console.log(res.data)
+      console.log(res.data.newRoom.id)
 
-      router.push(`/gameblock/lobby/${res.data.id}`)
+      router.push(`/gameblock/lobby/${res.data.newRoom.id}?token=${res.data.token}`)
     } catch (error) { }
   }
   return (

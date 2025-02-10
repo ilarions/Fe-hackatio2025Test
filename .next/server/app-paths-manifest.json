@@ -1,7 +1,6 @@
 {
-  "/login/page": "app/login/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js",
   "/gameblock/[id]/page": "app/gameblock/[id]/page.js",
-  "/gameblock/lobby/[room_id]/page": "app/gameblock/lobby/[room_id]/page.js"
+  "/gameblock/lobby/[room_id]/page": "app/gameblock/lobby/[room_id]/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js"
 }
