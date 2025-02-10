@@ -1,5 +1,5 @@
 "use client"
-import { ErrorContainer } from "../components/errorContainer";
+import { ErrorContainer } from "./components/errorContainer";
 
 export default function ErrorBoundary({ error }: { error: { message: string } }) {
     const tryAgain = () => { window.location.reload() };

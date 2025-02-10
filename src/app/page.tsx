@@ -1,4 +1,4 @@
-import { QuizCard, IQuiz } from "../components/quizCard";
+import { QuizCard, IQuiz } from "./components/quizCard";
 import { Stack } from "@mui/material";
 import { getQuizes } from "./lib/quiz";
 

@@ -4,7 +4,7 @@ import { IconButton, Typography, Stack, List, ListItemText, ListItem, Button, Ap
 import LiveHelpOutlinedIcon from '@mui/icons-material/LiveHelpOutlined';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
-import { NavMenu } from "../components/navMenu";
+import { NavMenu } from "./components/navMenu";
 import React from "react";
 
 export const MenuLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {

@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import Link from '@mui/material/Link';
-import { LogButtons } from '@/components/LogButtons';
+import { LogButtons } from '@/app/components/LogButtons';
 import { registerUser } from '../lib/auth';
 
 export default function Page() {
