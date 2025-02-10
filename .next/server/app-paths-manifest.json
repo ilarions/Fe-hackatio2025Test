@@ -1,9 +1,7 @@
 {
-<<<<<<< HEAD
-  "/register/page": "app/register/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/login/page": "app/login/page.js",
-=======
->>>>>>> 76c96d33e97d913b9f5f90a3603b1cc82b2b79a5
-  "/page": "app/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/gameblock/[id]/page": "app/gameblock/[id]/page.js",
+  "/gameblock/lobby/[room_id]/page": "app/gameblock/lobby/[room_id]/page.js"
 }
