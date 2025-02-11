@@ -15,6 +15,10 @@ export default function Page() {
     setQuest(res.quest)
 
   }
+  const end_quiz = (res: any) => {
+    console.log("suka")
+    console.log(res)
+  }
   const { room_id, token } = useParams();
   useEffect(() => {
     socketService.connect();
@@ -27,7 +31,11 @@ export default function Page() {
     socketService.sendMessage("start_question", get_quest);
     socketService.onMessage("start_question", handleQuestion);
     socketService.onMessage("next_question", next_question)
-    socketService.onMessage("gameUpdate", (data) => {
+    socketService.onMessage("end_quiz", end_quiz)
+
+
+
+    socketService.onMessage("end_quiz", (data) => {
       console.log("Received game update:", data);
     });
 
