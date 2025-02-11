@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e013ce6-f258-40d1-9725-d1035e333b5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/components/IconBox/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/QuestCompleteList/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/QuizList/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/UserProfile/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/app-build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/app-build-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/fallback-build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/fallback-build-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app-paths-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/app-paths-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/_not-found/page_client-reference-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/app/_not-found/page_client-reference-manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/login/page_client-reference-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/app/login/page_client-reference-manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/app/page_client-reference-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/app/page_client-reference-manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/chunks/ssr/node_modules_ce97a5._.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/chunks/ssr/node_modules_ce97a5._.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/chunks/ssr/node_modules_next_dist_client_components_forbidden-error_b4e556.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/chunks/ssr/node_modules_next_dist_client_components_forbidden-error_b4e556.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/chunks/ssr/node_modules_next_dist_client_components_unauthorized-error_d758e6.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/chunks/ssr/node_modules_next_dist_client_components_unauthorized-error_d758e6.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/chunks/ssr/src_app_globals_b52d8e.css" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/chunks/ssr/src_app_globals_b52d8e.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/chunks/ssr/src_app_globals_b52d8e.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/chunks/ssr/src_app_globals_b52d8e.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/middleware-build-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/middleware-build-manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/node_modules_@swc_helpers_cjs_00636a._.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/node_modules_@swc_helpers_cjs_00636a._.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/node_modules_next_dist_4bb10e._.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/node_modules_next_dist_4bb10e._.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/node_modules_next_dist_client_523921._.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/node_modules_next_dist_client_523921._.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/node_modules_next_dist_client_523921._.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/node_modules_next_dist_client_523921._.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/node_modules_next_dist_compiled_107ce8._.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/node_modules_next_dist_compiled_107ce8._.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/src_app_globals_b52d8e.css" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/src_app_globals_b52d8e.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/src_app_globals_b52d8e.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/src_app_globals_b52d8e.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/trace" beforeDir="false" afterPath="$PROJECT_DIR$/.next/trace" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/profile/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profile/page.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="3e013ce6-f258-40d1-9725-d1035e333b5b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +67,7 @@
       <workItem from="1739042887774" duration="15000" />
       <workItem from="1739105581871" duration="2378000" />
       <workItem from="1739112042584" duration="16317000" />
-      <workItem from="1739288870939" duration="7787000" />
+      <workItem from="1739288870939" duration="8119000" />
     </task>
     <servers />
   </component>
