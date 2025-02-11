@@ -1,6 +1,4 @@
 {
   "/register/page": "app/register/page.js",
-  "/answer/result/page": "app/answer/result/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/auth/sendemail/page": "app/auth/sendemail/page.js"
+  "/_not-found/page": "app/_not-found/page.js"
 }

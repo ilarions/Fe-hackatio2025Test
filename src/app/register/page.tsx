@@ -5,11 +5,12 @@ import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import Link from '@mui/material/Link';
 import { LogButtons } from '@/app/components/LogButtons';
-import { registerUser } from '../lib/auth';
+import { registerUser, sendEmail } from '../lib/auth';
 import { useRouter } from 'next/navigation';
 import { useForm } from 'react-hook-form';
+import { RegForm } from '../components/RegForm';
 
-interface IRegister {
+export interface IRegister {
   data: any;
   name: string;
   email: string;
@@ -23,24 +24,16 @@ export default function Page() {
   });
   const router = useRouter()
 
-  // const handleConsole = (data:any) => {
-  //   registerUser(data,data.email, data.password)
-  //   console.log("data");
-  // }
-
   const handleRegister = async (data: IRegister) => {
     console.log(data);
 
-    setIsLoading(true);
     try {
       await registerUser(data.name, data.email, data.password);
-      console.log(data)
-      console.log("gfgfdgdf");
-
-      router.push('/auth/sendemail');
+      await sendEmail();
     } catch (error) {
       console.error('Ошибка регистрации:', error);
     } finally {
+      router.push("/confirm")
       setIsLoading(false);
     }
   };
@@ -109,8 +102,8 @@ export default function Page() {
           variant="contained"
           disabled={isLoading}>
           {isLoading ? "Loading..." : "Register"}</Button>
-
       </form>
+      
       <Box className='flex w-1/2 h-screen justify-center items-center bg-blue-600'></Box>
     </div>
   )
