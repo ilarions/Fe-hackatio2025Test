@@ -9,7 +9,6 @@ export default async function Home() {
   const res = getQuizes()
   console.log("RES: ", res)
   const {data} = res
-
   return (
       <div>
         <Stack sx={{ margin: "110px auto", display: "grid", gridTemplateColumns: "repeat(3, 1fr)", width: "1090px" }}>
