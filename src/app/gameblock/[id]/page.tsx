@@ -19,7 +19,7 @@ export default function Page() {
       )
       console.log(res.data.newRoom.id)
 
-      router.push(`/gameblock/lobby/${res.data.newRoom.id}?token=${res.data.token}`)
+      router.push(`/gameblock/lobby/${res.data.newRoom.id}/${res.data.token}`)
     } catch (error) { }
   }
   return (
