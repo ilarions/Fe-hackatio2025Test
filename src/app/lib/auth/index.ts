@@ -15,9 +15,10 @@ export async function loginUser(email: string, password: string) {
 
 export async function registerUser(name: string, email: string, password: string) {
     try {
+        console.log(name, email, password);
+        
         const response = await apiClient.post("/auth/register", { name, email, password });
-        console.log(response);
-
+        console.log("Response", response.data);
         return response.data;
     } catch (error) {
         console.error("Error:", error);
@@ -26,7 +27,7 @@ export async function registerUser(name: string, email: string, password: string
 }
 
 export async function confirmEmail() {
-    const response = await apiClient.post("http://localhost:9000/auth/endregister");
+    const response = await apiClient.post("auth/endregister");
     return response.data;
 }
 
