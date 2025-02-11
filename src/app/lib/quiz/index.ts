@@ -4,11 +4,10 @@ export async function getQuizes() {
     try {
       const response = await apiClient.get("/quiz/get");
       console.log(response);
-  
+
       return response.data;
     } catch (error) {
       console.error("ERROR", error);
       throw error;
     }
   }
-  
