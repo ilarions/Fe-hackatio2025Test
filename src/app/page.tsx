@@ -2,7 +2,7 @@ import { QuizCard, IQuiz } from "./components/quizCard";
 import { Stack } from "@mui/material";
 import { getQuizes } from "./lib/quizes";
 
-export default function Home() {
+export default async function Home() {
   const res = await getQuizes();
   const {data} = res 
   
