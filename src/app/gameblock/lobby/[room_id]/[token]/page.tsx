@@ -1,5 +1,5 @@
 "use client"
-import { Box, Button } from '@mui/material'
+import { Box, Button, hexToRgb } from '@mui/material'
 import React, { useEffect, useState } from 'react'
 import socketService from '../../../../../socket'
 import { useParams } from 'next/navigation';
@@ -43,7 +43,7 @@ export default function Page() {
       socketService.disconnect();
     };
   }, [])
-  const sendNextQuestion = (id) => {
+  const sendNextQuestion = (id: any) => {
     console.log(id)
     console.log(token)
     const data = {
@@ -61,6 +61,7 @@ export default function Page() {
         className='bg-white w-2/3 flex flex-col items-start gap-2 justify-start p-10'>
         {quest ?
           <div>
+            <img src={quest.img} alt="" style={{ width: "350px", height: "400px" }} />
             <h1 className='text-6xl text-black font-bold flex items-center justify-center mt-[50px]'>{quest?.title}</h1>
             {quest.answers?.map((elem: any) => (
               <Button onClick={() => sendNextQuestion(elem.id)} variant="contained" color="success" key={elem.id}>

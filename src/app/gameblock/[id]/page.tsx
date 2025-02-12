@@ -6,6 +6,6 @@ export default async function Page({ params }: { params: any }) {
 
   const quiz = await getQuiz(params.id)
 
-return <QuizDecription  title={quiz.title} description={quiz.description} time={quiz.time} img={quiz.img} />;
+  return <QuizDecription rating={quiz.rating} title={quiz.title} description={quiz.description} time={quiz.time} img={quiz.img} />;
 
 }
