@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Virtual Quest Platform
 
-## Getting Started
+## Project Description
 
-First, run the development server:
+A virtual platform for creating, customizing, and completing quests with interactive tasks. The platform is designed for interactive learning, entertainment, and team building. Users can create quests, add multimedia elements (text, photos, videos), complete quests, receive ratings, and use gamification features to earn rewards.
 
-```bash
+---
+
+## Core Functional Requirements
+
+### Registration and Authorization
+- Registration via email or social networks.
+- Creating a profile with an avatar, name, and quest history.
+
+### Quest Creation
+- Users can create new quests by specifying the title, description, number of tasks, and time limits.
+- Adding multimedia elements (text, photos, videos) to tasks.
+
+### Quest Completion
+- Interface for completing quests with an interactive task map.
+- Timer for tasks with time limits.
+
+### Rating and Feedback System
+- Quest authors' rating system.
+- Quest evaluation by participants.
+
+---
+
+## Tech Stack
+
+### Backend
+- **Nest.js**: Framework for building scalable and efficient server-side applications on Node.js.
+- **Prisma**: ORM for database interaction, providing type safety and a convenient API for queries.
+- **WebSocket**: Used for real-time interactivity (e.g., chat during quest completion).
+
+### Frontend
+- **Next.js**: Framework for building React applications with support for SSR (Server-Side Rendering) and static generation.
+- **Tailwind CSS**: Utility-first CSS framework for rapid development of responsive interfaces.
+- **Material-UI (MUI)**: Component library for React, providing ready-to-use UI elements in Material Design style.
+
+---
+
+## Local Setup
+
+**Frontend**
+```
+git clone https://github.com/ilarions/Fe-hackatio2025Test.git
+```
+```
+cd /Fe-hackatio2025Test
+```
+```
+npm install
+```
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+**Backend**
+```
+git clone https://github.com/ilarions/BE-hacaktion2025test.git
+```
+```
+cd BE-hacaktion2025test
+```
+```
+npm install
+```
+```
+npx prisma generate
+```
+```
+npm run start:dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Hosting
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### backend
+https://be-hacaktion2025test.onrender.com/
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*Wait 10 minutes for the backend to function correctly.*
 
-## Learn More
+### frontend
 
-To learn more about Next.js, take a look at the following resources:
+https://fe-hackatio2025-test.vercel.app/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Future Plans
+**Rewards**:  Users will be able to earn badges displayed on their profiles, as well as other rewards.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Authors
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+https://github.com/MaxOstapets
+
+https://github.com/talafarael
+
+https://github.com/stasik23
+
+https://github.com/qwertythome
