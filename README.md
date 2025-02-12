@@ -1,3 +1,4 @@
+
 # Virtual Quest Platform
 
 ## Project Description
@@ -28,15 +29,10 @@ A virtual platform for creating, customizing, and completing quests with interac
 
 ## Tech Stack
 
-### Backend
-- **Nest.js**: Framework for building scalable and efficient server-side applications on Node.js.
-- **Prisma**: ORM for database interaction, providing type safety and a convenient API for queries.
-- **WebSocket**: Used for real-time interactivity (e.g., chat during quest completion).
-
-### Frontend
-- **Next.js**: Framework for building React applications with support for SSR (Server-Side Rendering) and static generation.
-- **Tailwind CSS**: Utility-first CSS framework for rapid development of responsive interfaces.
-- **Material-UI (MUI)**: Component library for React, providing ready-to-use UI elements in Material Design style.
+- **Backend**: NestJS, Prisma, MongoDB
+- **Frontend**: Next.js, React
+- **UI**: Tailwind CSS, MUI (Material-UI)
+- **form**: React Hook Form
 
 ---
 

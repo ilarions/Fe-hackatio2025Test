@@ -1,7 +1,5 @@
-import { logWithGoogle } from '@/app/lib/auth'
 import { Box, Button } from '@mui/material'
 import React from 'react'
-import { FaFacebook } from 'react-icons/fa'
 import { FcGoogle } from 'react-icons/fc'
 import { redirect } from 'next/navigation'
 

@@ -22,7 +22,7 @@ export default function Page() {
     <Box sx={{ color: "black", paddingTop: "140px", display: "flex", flexDirection: "column", alignItems: 'center' }}>
       <ChangeQuiz quiz={quiz} quiz_id={id_quiz} setQuiz={setQuiz} />
       <Box sx={{ height: "100%" }}>
-        <QuestRedactor quest={quiz?.quests ?? null} />
+        <QuestRedactor quest={quiz?.quests ?? null} id_quiz={id_quiz} />
       </Box>
     </Box>
   )

@@ -5,11 +5,11 @@ import { useState, useEffect } from "react";
 import { QuizCardSkeleton } from "./quizCardSkeleton";
 
 export interface IQuiz {
-    img: string,
-    description: string,
-    title: string,
-    rating: number,
-    id?: string,
+  img: string,
+  description: string,
+  title: string,
+  rating: number,
+  id?: string,
 }
 
 export const QuizCard: React.FC<IQuiz> = ({ img, description, title, rating, id }) => {
@@ -36,3 +36,4 @@ export const QuizCard: React.FC<IQuiz> = ({ img, description, title, rating, id 
         </Card>
     )
 
+}
