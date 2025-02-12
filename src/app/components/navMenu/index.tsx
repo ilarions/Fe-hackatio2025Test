@@ -6,7 +6,8 @@ import * as React from 'react';
 interface INav {
     closeClick: any,
     state: any,
-    openCheck: boolean
+    openCheck: boolean,
+    handler?: ()=> void
 }
 
 export const NavMenu: React.FC<INav> = ({ closeClick, state, openCheck }) => {
@@ -15,7 +16,7 @@ export const NavMenu: React.FC<INav> = ({ closeClick, state, openCheck }) => {
     }
     const list = [
         { title: "Profile", icon: <Avatar /> },
-        { handler?: () => , title: "Logout", icon: <Logout fontSize="small" /> }
+        { handler: () => logoutHandler, title: "Logout", icon: <Logout fontSize="small" /> }
     ]
     return (
         <Menu
