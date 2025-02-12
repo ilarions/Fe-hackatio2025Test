@@ -16,6 +16,7 @@ export type Quest = {
   type: string;
   img: string;
   quizId: string;
+  answers: any
   quizInRoomId: string[];
 };
 

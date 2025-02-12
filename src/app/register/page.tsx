@@ -8,11 +8,9 @@ import { LogButtons } from '@/app/components/LogButtons';
 import { registerUser, sendEmail } from '../lib/auth';
 import { useRouter } from 'next/navigation';
 import { useForm } from 'react-hook-form';
-<<<<<<< HEAD
-=======
+
 import { ConfirmCom } from '../components/ConfirmCom';
 
->>>>>>> 726c05c1b338c046001ed8bd183ec9ecfdd872cd
 export interface IRegister {
   name: string;
   email: string;

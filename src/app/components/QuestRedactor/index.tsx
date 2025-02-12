@@ -100,7 +100,7 @@ export default function QuestRedactor({ quest, id_quiz }: { quest: Quest[] | nul
             {elem.title}
           </Typography>
           <Box sx={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "10px", marginTop: "20px", marginBottom: "20px", }}>
-            {elem?.answers.map((answer) => (
+            {elem?.answers?.map((answer: any) => (
               <Box key={answer.id} sx={{ borderRadius: "8px", background: answer.isCorrect ? "#5ce65c" : "#ff7081", width: "370px", height: "50px", display: "flex", justifyContent: "center", alignItems: "center", textAlign: "center" }}>
                 <Typography variant='h5' color='white' fontWeight={700}>
                   {answer.text}
