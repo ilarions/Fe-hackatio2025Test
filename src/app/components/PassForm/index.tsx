@@ -11,19 +11,10 @@ import VisibilityOff from '@mui/icons-material/VisibilityOff';
 export const PassForm = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
-  const { register, handleSubmit, formState: { errors: formErrors }, reset } = useForm({
+  const { register, handleSubmit, reset } = useForm({
   });
   const router = useRouter();
-  const handleRegister = async () => {
-    setIsLoading(true);
-    try {
-      await registerUser('name', 'email', 'password');
-    } catch (error) {
-      console.error('Ошибка входа:', error);
-    } finally {
-      setIsLoading(false);
-    }
-  };
+
 
   const handleLogin = async (data: any) => {
     setIsLoading(true);
