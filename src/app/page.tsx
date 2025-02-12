@@ -12,12 +12,14 @@ export default function Home() {
       try {
         const res = await getQuizes();
         setQuizzes(res.data);
+        console.log(res.data)
       } catch (error) {
         console.error("Помилка отримання квізів:", error);
       }
     }
 
     fetchData();
+    console.log(quizzes)
   }, [])
 
   // const { data } = res
