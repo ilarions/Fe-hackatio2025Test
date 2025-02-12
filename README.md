@@ -1,52 +1,97 @@
-# ILarions Quiz
 
-## Описание
-ILarions Quiz — это платформа для прохождения викторин, созданная с использованием современных технологий. Позволяет пользователям участвовать в квизах, получать результаты и анализировать свои знания.
+# Virtual Quest Platform
 
-## Стек технологий
+## Project Description
+
+A virtual platform for creating, customizing, and completing quests with interactive tasks. The platform is designed for interactive learning, entertainment, and team building. Users can create quests, add multimedia elements (text, photos, videos), complete quests, receive ratings, and use gamification features to earn rewards.
+
+---
+
+## Core Functional Requirements
+
+### Registration and Authorization
+- Registration via email or social networks.
+- Creating a profile with an avatar, name, and quest history.
+
+### Quest Creation
+- Users can create new quests by specifying the title, description, number of tasks, and time limits.
+- Adding multimedia elements (text, photos, videos) to tasks.
+
+### Quest Completion
+- Interface for completing quests with an interactive task map.
+- Timer for tasks with time limits.
+
+### Rating and Feedback System
+- Quest authors' rating system.
+- Quest evaluation by participants.
+
+---
+
+## Tech Stack
+
 - **Backend**: NestJS, Prisma, MongoDB
 - **Frontend**: Next.js, React
 - **UI**: Tailwind CSS, MUI (Material-UI)
-- **Формы**: React Hook Form
+- **form**: React Hook Form
 
-## Функционал
-- Регистрация и авторизация пользователей
-- Создание и прохождение квизов
-- Административная панель для управления вопросами и пользователями
-- Поддержка различных типов вопросов
-- Подсчет результатов и статистика
+---
 
-## Установка и запуск
-### Backend
-1. Клонируйте репозиторий:
-   ```sh
-   git clone https://github.com/username/ilarions-quiz.git
-   cd ilarions-quiz
-   ```
-2. Установите зависимости:
-   ```sh
-   cd backend
-   npm install
-   ```
-3. Настройте `.env` файл:
-   ```env
-   DATABASE_URL=mongodb+srv://your_mongo_url
-   ```
-4. Запустите сервер:
-   ```sh
-   npm run start
-   ```
+## Local Setup
 
-### Frontend
-1. Перейдите в папку с клиентом:
-   ```sh
-   cd frontend
-   ```
-2. Установите зависимости:
-   ```sh
-   npm install
-   ```
-3. Запустите приложение:
-   ```sh
-   npm run dev
-   ```
+**Frontend**
+```
+git clone https://github.com/ilarions/Fe-hackatio2025Test.git
+```
+```
+cd /Fe-hackatio2025Test
+```
+```
+npm install
+```
+```
+npm run dev
+```
+**Backend**
+```
+git clone https://github.com/ilarions/BE-hacaktion2025test.git
+```
+```
+cd BE-hacaktion2025test
+```
+```
+npm install
+```
+```
+npx prisma generate
+```
+```
+npm run start:dev
+```
+
+## Hosting
+
+### backend
+https://be-hacaktion2025test.onrender.com/
+
+*Wait 10 minutes for the backend to function correctly.*
+
+### frontend
+
+https://fe-hackatio2025-test.vercel.app/
+
+---
+
+## Future Plans
+**Rewards**:  Users will be able to earn badges displayed on their profiles, as well as other rewards.
+
+---
+
+## Authors
+
+https://github.com/MaxOstapets
+
+https://github.com/talafarael
+
+https://github.com/stasik23
+
+https://github.com/qwertythome

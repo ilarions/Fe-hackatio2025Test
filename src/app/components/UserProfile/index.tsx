@@ -39,7 +39,7 @@ export default function UserProfile({ data }: UserProfileProps) {
                 </Box>
                 <Box className="flex flex-row h-full gap-4">
                     <Box className="flex justify-center items-center self-center bg-white w-[60%] h-full" sx={{ borderRadius: '40px' }}>
-                        Achievements
+                        Achievements(coming soon)
                     </Box>
                     <Box className="w-[40%] flex flex-col gap-2">
                         <Box className="bg-white w-full h-[50%] flex flex-col justify-center items-center" sx={{ borderRadius: '40px' }}>
