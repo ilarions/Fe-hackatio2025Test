@@ -45,7 +45,7 @@ export const MenuLayout = ({ children }: Readonly<{ children: React.ReactNode }>
           >
             <AccountCircleOutlinedIcon sx={{ color: "white", fontSize: "35px" }} />
           </IconButton>
-          <Button variant="outlined" sx={{ bgcolor: "white", fontWeight: "600", color: "#4635B1", padding: "5px 20px" }}>+ New Quiz</Button>
+          <Button variant="outlined" sx={{ bgcolor: "white", fontWeight: "600", color: "#4635B1" }}>+ New Quiz</Button>
         </Stack>
         <NavMenu closeClick={handleClose} state={anchorEl} openCheck={open} />
       </AppBar>
@@ -58,9 +58,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en">
       <body>
-          <MenuLayout>
-            {children}
-          </MenuLayout>
+        <MenuLayout>
+          {children}
+        </MenuLayout>
       </body>
     </html>
   );
