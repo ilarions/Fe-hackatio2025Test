@@ -6,7 +6,7 @@ import { redirect } from 'next/navigation'
 export const LogButtons = () => {
 
   const handelLogin = () => {
-    redirect("http://localhost:9000/auth/google/login")
+    redirect(`${process.env.NEXT_PUBLIC_API_URL}auth/google/login`)
   }
   return (
     <Box
