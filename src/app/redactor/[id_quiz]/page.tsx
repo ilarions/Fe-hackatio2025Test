@@ -21,7 +21,6 @@ export default function Page() {
   return (
     <Box sx={{ color: "black", paddingTop: "140px", display: "flex", flexDirection: "column", alignItems: 'center' }}>
       <ChangeQuiz quiz={quiz} quiz_id={id_quiz} setQuiz={setQuiz} />
-      <Button variant='contained' sx={{ bgcolor: "#362989", color: "white", padding: "10px 110px", marginTop: "10px", fontSize: "14px", fontWeight: "800" }}>add Item</Button>
       <Box sx={{ height: "100%" }}>
         <QuestRedactor quest={quiz?.quests ?? null} />
       </Box>
