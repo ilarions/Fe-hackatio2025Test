@@ -4,15 +4,18 @@ import Avatar from '@mui/material/Avatar';
 import * as React from 'react';
 
 interface INav {
-    closeClick: any, 
-    state: any, 
+    closeClick: any,
+    state: any,
     openCheck: boolean
 }
 
-export const NavMenu:React.FC<INav> = ({closeClick, state, openCheck}) => {
+export const NavMenu: React.FC<INav> = ({ closeClick, state, openCheck }) => {
+    const logoutHandler = () => {
+
+    }
     const list = [
         { title: "Profile", icon: <Avatar /> },
-        { title: "Logout", icon: <Logout fontSize="small" /> }
+        { handler?: () => , title: "Logout", icon: <Logout fontSize="small" /> }
     ]
     return (
         <Menu
