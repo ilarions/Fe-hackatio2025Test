@@ -1,15 +1,12 @@
 // import axios from "axios";
 // import { useParams, useRouter } from 'next/navigation'
-
 import { QuizDecription } from '@/app/components/quizDescription';
-
 import { getQuiz } from '@/app/lib/quiz';
 
 export default async function Page({ params }: { params: any }) {
   // const router = useRouter()
   // const { id } = useParams();
   const quiz = await getQuiz(params.id)
-
   // const hanlderStart = async () => {
   //   try {
   //     const res = await axios.post("http://localhost:9000/room-quest/createroom",

@@ -34,6 +34,5 @@ export const QuizCard: React.FC<IQuiz> = ({ img, description, title, rating, id 
                 </CardActions>
             </CardContent>
         </Card>
-
     )
-}
+
