@@ -1,4 +1,4 @@
-import { Menu, MenuItem, ListItemIcon } from "@mui/material"
+import { Menu, MenuItem, ListItemIcon, Link } from "@mui/material"
 import Logout from '@mui/icons-material/Logout';
 import Avatar from '@mui/material/Avatar';
 import * as React from 'react';
@@ -7,7 +7,8 @@ interface INav {
     closeClick: any,
     state: any,
     openCheck: boolean,
-    handler?: ()=> void
+    handler?: () => void,
+    link?: string
 }
 
 export const NavMenu: React.FC<INav> = ({ closeClick, state, openCheck }) => {
@@ -15,7 +16,7 @@ export const NavMenu: React.FC<INav> = ({ closeClick, state, openCheck }) => {
 
     }
     const list = [
-        { title: "Profile", icon: <Avatar /> },
+        { title: "Profile", icon: <Avatar />, link: "/profile" },
         { handler: () => logoutHandler, title: "Logout", icon: <Logout fontSize="small" /> }
     ]
     return (
@@ -58,7 +59,7 @@ export const NavMenu: React.FC<INav> = ({ closeClick, state, openCheck }) => {
         >
             {list.map((el) => (
                 <MenuItem onClick={closeClick} key={el.title}>
-                    <ListItemIcon>{el.icon}</ListItemIcon> {el.title}
+                    <Link href={el.link} sx={{ textDecoration: "none", color: "#4635B1" }}><ListItemIcon>{el.icon}</ListItemIcon>{el.title}</Link>
                 </MenuItem>
             ))}
         </Menu>

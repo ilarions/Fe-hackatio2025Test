@@ -1,10 +1,11 @@
 "use client"
-import { IconButton, Typography, Stack, List, ListItemText, ListItem, Button, AppBar, TextField, InputAdornment } from "@mui/material"
+import { IconButton, Typography, Stack, List, ListItemText, ListItem, Button, AppBar, TextField, InputAdornment, Link } from "@mui/material"
 import LiveHelpOutlinedIcon from '@mui/icons-material/LiveHelpOutlined';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
-import { NavMenu } from "../components/navMenu";
+import { NavMenu } from "../navMenu";
 import React from "react";
+
 export const MenuLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
@@ -43,7 +44,7 @@ export const MenuLayout = ({ children }: Readonly<{ children: React.ReactNode }>
           >
             <AccountCircleOutlinedIcon sx={{ color: "white", fontSize: "35px" }} />
           </IconButton>
-          <Button variant="outlined" sx={{ bgcolor: "white", fontWeight: "600", color: "#4635B1", padding: "5px 20px" }}>Зареєструватися</Button>
+          <Link href="/creator"><Button variant="outlined" sx={{ bgcolor: "white", fontWeight: "600", color: "#4635B1", padding: "5px 20px" }}>New Quiz</Button></Link>
         </Stack>
         <NavMenu closeClick={handleClose} state={anchorEl} openCheck={open} />
       </AppBar>
