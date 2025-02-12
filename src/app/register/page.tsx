@@ -8,8 +8,6 @@ import { LogButtons } from '@/app/components/LogButtons';
 import { registerUser, sendEmail } from '../lib/auth';
 import { useRouter } from 'next/navigation';
 import { useForm } from 'react-hook-form';
-import { RegForm } from '../components/RegForm';
-
 export interface IRegister {
   data: any;
   name: string;
