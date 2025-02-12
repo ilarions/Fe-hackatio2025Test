@@ -20,7 +20,7 @@ export const QuizDecription: React.FC<IQuiz> = ({ title, description, rating, ti
   const hanlderStart = async () => {
     console.log("suka")
     try {
-      const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/room-quest/createroom`,
+      const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}room-quest/createroom`,
         { id_quiz: id },
         { withCredentials: true },
       )
